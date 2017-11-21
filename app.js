@@ -25,8 +25,8 @@ input.id = "add_task_input";
 
 var AddButton = document.createElement('button');
 AddButton.innerHTML = "Добавить";
-AddButton.id = "add_task";
 AddButton.addEventListener("click", function(){insertEl(input.value)});
+AddButton.id = "add_task";
 
 
 div.appendChild(input);
