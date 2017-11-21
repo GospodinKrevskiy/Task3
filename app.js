@@ -21,13 +21,13 @@ insertEl(“Сделать задание #3 по web-программирова
 
 var input = document.createElement('input');
 
-input.setAttribute("id", "add_task_input");
+input.id = "add_task_input";
 
 var AddButton = document.createElement('button');
 AddButton.innerHTML = "Добавить";
+AddButton.id = "add_task";
 AddButton.addEventListener("click", function(){insertEl(input.value)});
 
-AddButton.setAttribute("id", "add_task");
 
 div.appendChild(input);
 div.appendChild(AddButton);
