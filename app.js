@@ -17,7 +17,7 @@ function insertEl(str) {
 	ul.appendChild(li);
 }
 
-insertEl("Cделать задание #3 по web-программированию");
+insertEl(“Сделать задание #3 по web-программированию”);
 
 var input = document.createElement('input');
 
